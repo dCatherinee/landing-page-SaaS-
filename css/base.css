@@ -1,0 +1,42 @@
+.container{
+    width: 100%;
+    max-width: 1074px;
+    margin: 0 auto;
+
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+
+    margin: 0;
+    padding: 0;
+
+    --color-black: #19191B;
+    --color-gray: #696871;
+    --color-light-gray: #F8F8F8;
+    --color-white: #FFFFFF;
+    --color-accent: #5454D4;
+    --color-orange: #FF7143;
+    --color-dark-orange: #9F3919;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}

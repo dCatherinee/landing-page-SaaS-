@@ -1,0 +1,87 @@
+@import './base.css';
+
+.button{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    color: var(--color-white);
+
+    background-color: var(--color-accent);
+    padding: 19px 60px;
+    border-radius: 10px;
+
+    transition: 0.2s;
+
+    text-decoration: none;
+    border: none; 
+    outline: none;
+}
+
+.button:hover{
+    background-color: var(--color-orange);
+    transition: 0.2s;
+}
+
+.button:active{
+    background-color: var(--color-dark-orange);
+    transition: 0.1s;
+}
+
+.button-arroц-down{
+    border: none; 
+    outline: none;
+    background-color: var(--color-white);
+    padding-left: 40px;
+}
+
+.button-link{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    color: var(--color-accent);
+
+    transition: 0.2s;
+
+    text-decoration: none;
+}
+
+.button-link:hover{
+    color: var(--color-orange);
+    transition: 0.2s;
+}
+
+.button-link:active{
+    color: var(--color-dark-orange);
+    transition: 0.2s;
+}
+
+.button-choice-l{
+    background-color: var(--color-accent);
+    border-radius: 10px 0px 0px 10px;
+}
+
+.button-choice-r{
+    background-color: var(--color-light-gray);
+    border-radius: 0px 10px 10px 0px;
+    color: var(--color-black);
+}
+
+.button_pricing{
+    color: var(--color-accent);
+    padding: 19px 96px;
+
+    background-color: var(--color-white);
+}
+
+.button_pricing:hover{
+    color: var(--color-white);
+
+    background-color: var(--color-dark-orange);
+}
+
+.button_pricing:active{
+    color: var(--color-white);
+
+    background-color: var(--color-accent);
+}
